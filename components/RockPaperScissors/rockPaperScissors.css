@@ -1,0 +1,37 @@
+#rockPaperScissors {
+    display: grid;
+    padding: 0 20% 0 10%;
+    text-align: center;
+
+    .board {
+        display: grid;
+        gap: 5%;
+        font-size: xx-large;
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .board-cell {
+        display: flex;
+        height: 200px;
+        border: 1px solid white;
+        align-items: center;
+        justify-content: center;
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .board-cell i {
+        font-size: 50px;
+        width: 100px;
+    }
+
+    .board-cell:hover {
+        border-color: #dbbbc5
+    }
+
+    .separator {
+        padding-top: 50px;
+    }
+    
+}

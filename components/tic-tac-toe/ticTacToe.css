@@ -1,0 +1,44 @@
+#tic-tac-toe {
+    align-items: center;
+    justify-content: center;
+    padding: 5% 15% 5% 15%;
+  
+    .board {
+      background-color: #dbbbc5;
+      display: grid;
+      font-size: xx-large;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 800px;
+    }
+  
+    .board-cell {
+      display: flex;
+      height: 20vh;
+      border: 1px solid white;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .restart-game {
+      height: 30px;
+      width: 100px;
+    }
+  
+    .button-container {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+      width: 100%;
+    }
+  
+    .restart-game-button {
+      border-radius: 15px;
+      font-size: large;
+      height: 30px;
+      background-color: rgb(148, 149, 162);
+    }
+  
+    .scoreboard {
+      font-size: x-large;
+    }
+  }
