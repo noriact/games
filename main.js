@@ -1,13 +1,13 @@
 import "./style.css";
 import { Main as TicTacToe}  from "./components/tic-tac-toe/ticTacToe";
 import { Main as Memory}  from "./components/Memory/memory";
-import { Main as PiedraPapelTijera}  from "./components/RockPaperScissors/rockPaperScissors";
+import { Main as RockPaperScissors}  from "./components/RockPaperScissors/rockPaperScissors";
 
-let currentGame = 'PiedraPapelTijera';
+let currentGame = 'RockPaperScissors';
 const games = {
   'TicTacToe': TicTacToe,
   'Memory': Memory,
-  'PiedraPapelTijera': PiedraPapelTijera
+  'RockPaperScissors': RockPaperScissors
 }
 
 const header = () => {
